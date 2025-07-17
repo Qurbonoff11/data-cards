@@ -1,0 +1,20 @@
+@mixin flexBox ($justify, $items, $direction, $wrap, $gap) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $items;
+  flex-direction: $direction;
+  flex-wrap: $wrap;
+  gap: $gap;
+}
+
+@mixin button () {
+  width: $width;
+  height: $height;
+  padding: $padding;
+  font-size: $fs;
+  font-weight: $fw;
+  color: $fc;
+  border: $border;
+  border-radius: $border-r;
+  cursor: $cursor;
+}
