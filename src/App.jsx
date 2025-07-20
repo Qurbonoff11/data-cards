@@ -45,7 +45,7 @@ const App = () => {
             );
           })}
         </div>
-        <div className="modal-window">
+        {/* <div className="modal-window">
           <div>
             <input type="text" className="movie-name" placeholder="Movie mane..." />
             <input type="text" className="movie-year" placeholder="Year..." />
@@ -53,7 +53,7 @@ const App = () => {
             <input type="text" className="movie-country" placeholder="Country..." />
           </div>
           <button className="edit-btn">Edit</button>
-        </div>
+        </div> */}
       </div>
     </section>
   );

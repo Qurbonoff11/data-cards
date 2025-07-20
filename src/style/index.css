@@ -116,36 +116,5 @@ body {
 .section .cont .cards-list .card .card-info .btns .edit-btn:hover {
   box-shadow: 0 0 10px rgba(180, 120, 0, 0.8), 0 0 10px rgba(180, 120, 0, 0.6);
 }
-.section .cont .modal-window {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  flex-direction: column;
-  width: 500px;
-  background: #000;
-  height: 350px;
-  flex-wrap: wrap;
-  padding: 2rem;
-}
-.section .cont .modal-window div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  flex-wrap: wrap;
-  gap: 2rem;
-}
-.section .cont .modal-window div input {
-  width: 200px;
-  padding: 0.4rem 0.6rem;
-  outline: none;
-  border: 1px solid #333;
-  background-color: #222;
-  border-radius: 0.5rem;
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: #fff;
-}
 
 /*# sourceMappingURL=index.css.map */
